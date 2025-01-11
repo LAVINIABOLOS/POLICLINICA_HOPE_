@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POLICLINICA_HOPE_", "POLICLINICA_HOPE_.csproj", "{EC285994-928F-4A62-841A-3CEE94B638D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{034081CD-1D54-411A-BE63-1FB304D3FC23}"
+	ProjectSection(SolutionItems) = preProject
+		MainPage.xaml = MainPage.xaml
+		MainPage.xaml.cs = MainPage.xaml.cs
+		MainPageViewModel.cs = MainPageViewModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{48404B20-04F7-46FC-B5C6-2915E0D1D3AB}"
+	ProjectSection(SolutionItems) = preProject
+		CreateAppointmentPage.xaml = CreateAppointmentPage.xaml
+		CreateAppointmentPage.xaml.cs = CreateAppointmentPage.xaml.cs
+		LoginPage.xaml = LoginPage.xaml
+		LoginPage.xaml.cs = LoginPage.xaml.cs
+		RegisterPage.xaml = RegisterPage.xaml
+		RegisterPage.xaml.cs = RegisterPage.xaml.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC285994-928F-4A62-841A-3CEE94B638D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{034081CD-1D54-411A-BE63-1FB304D3FC23} = {48404B20-04F7-46FC-B5C6-2915E0D1D3AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8748AC7-3B33-426F-A37B-BC5205D065DB}
+	EndGlobalSection
+EndGlobal
